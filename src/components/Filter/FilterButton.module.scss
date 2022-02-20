@@ -1,0 +1,17 @@
+button {
+  padding: 0.375rem 0.75rem;
+  background-color: white;
+  border-radius: 1rem;
+  border: 1px solid #333;
+  color: #4770bd;
+  font-weight: bold;
+  white-space: nowrap;
+  cursor: pointer;
+  will-change: auto;
+  transition: 0.2s ease-in-out all;
+}
+
+.button--selected {
+  background-color: #4770bd;
+  color: white;
+}
