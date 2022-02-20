@@ -13,7 +13,7 @@ const MovieItem = ({ title, image, id, genreList }: Movie) => {
       initial={{ opacity: 0, scale: 0 }}
       exit={{ opacity: 0, scale: 0 }}
     >
-      <h2 style={styles["movie__title"]}>{title}</h2>
+      <h2 className={styles["movie__title"]}>{title}</h2>
       <img className={styles.img} src={imageUrl} alt={title} />
     </motion.li>
   );
